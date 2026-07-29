@@ -1,4 +1,4 @@
-/* Heuristic explorer — the five dimensions of data humanism.
+/* Heuristic explorer - the five dimensions of data humanism.
    Implemented as an ARIA "tabs" widget. Content lives in the HTML, so
    with JavaScript disabled all five panels simply stack and remain readable. */
 (function () {

@@ -1,4 +1,4 @@
-/* Rehumanizing Data — site interactions
+/* Rehumanizing Data - site interactions
    Progressive enhancement: every feature degrades to readable static HTML.
    Modules: mobile nav · reveal-on-scroll · reframe toggle · timelines · bars */
 (function () {

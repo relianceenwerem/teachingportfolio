@@ -22,6 +22,7 @@
     <symbol id="g-context" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="2.2" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="5.4"/><circle cx="12" cy="12" r="8.6"/></g></symbol>
     <symbol id="g-small" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.2"/><circle cx="10.5" cy="10.5" r="1.6" fill="currentColor" stroke="none"/><path d="M15.2 15.2 20 20"/></g></symbol>
     <symbol id="g-subjectivity" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.8 12 5.8 21.5 12 21.5 12 18 18.2 12 18.2 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="2.6"/></g></symbol>
+    <symbol id="person" viewBox="0 0 24 24"><circle cx="12" cy="6.6" r="4.4"/><path d="M2.8 22C2.8 15.6 6.9 12 12 12s9.2 3.6 9.2 10Z"/></symbol>
   </defs></svg>
 
   <header class="site-header">
@@ -42,10 +43,43 @@
 
   <main id="main">
     <section class="hero">
-      <div class="wrap">
-        <span class="eyebrow-hand">signature assignment &middot; ENC 3027</span>
-        <h1>Rehumanizing<br><span class="thesis">Data.</span></h1>
-        <p class="lead">A scaffolded project that moves students from understanding data humanism in theory to practicing it under real conditions.</p>
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow-hand">signature assignment &middot; ENC 3027</span>
+          <h1>Rehumanizing<br><span class="thesis">Data.</span></h1>
+          <p class="lead">A scaffolded project that moves students from understanding data humanism in theory to practicing it under real conditions.</p>
+        </div>
+        <div class="hero-media">
+          <svg class="hero-art" viewBox="0 0 520 360" role="img" aria-label="Illustration: a cold uniform grid of identical marks on the left transforms into a warm, varied cluster of human points on the right.">
+            <defs>
+              <pattern id="a-grid" width="44" height="40" patternUnits="userSpaceOnUse">
+                <rect x="0" y="0" width="13" height="13" fill="#17294c" fill-opacity="0.5"/>
+              </pattern>
+            </defs>
+            <rect width="520" height="360" fill="#fffdf8"/>
+            <!-- datafied: uniform grid -->
+            <rect x="40" y="78" width="180" height="200" fill="url(#a-grid)"/>
+            <text x="46" y="312" font-family="Inter, sans-serif" font-size="13" font-weight="600" letter-spacing="1.5" fill="#868c96">DATAFIED</text>
+            <!-- transformation arrow -->
+            <line x1="260" y1="70" x2="260" y2="286" stroke="#17294c" stroke-opacity="0.12" stroke-width="1.5"/>
+            <path d="M244 178 h30 m-9 -7 l9 7 l-9 7" fill="none" stroke="#7c1d2b" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <!-- rehumanized: warm, varied crowd of people -->
+            <g>
+              <use href="#person" x="298" y="150" width="34" height="34" fill="#7c1d2b"/>
+              <use href="#person" x="340" y="120" width="26" height="26" fill="#b48a3f"/>
+              <use href="#person" x="374" y="146" width="46" height="46" fill="#7c1d2b"/>
+              <use href="#person" x="430" y="132" width="28" height="28" fill="#7c1d2b"/>
+              <use href="#person" x="298" y="206" width="28" height="28" fill="#17294c"/>
+              <use href="#person" x="340" y="192" width="40" height="40" fill="#7c1d2b"/>
+              <use href="#person" x="394" y="204" width="32" height="32" fill="#b48a3f"/>
+              <use href="#person" x="440" y="188" width="28" height="28" fill="#7c1d2b"/>
+              <use href="#person" x="314" y="250" width="28" height="28" fill="#7c1d2b"/>
+              <use href="#person" x="364" y="246" width="38" height="38" fill="#7c1d2b"/>
+              <use href="#person" x="420" y="244" width="30" height="30" fill="#b48a3f"/>
+            </g>
+            <text x="474" y="312" font-family="Inter, sans-serif" font-size="13" font-weight="600" letter-spacing="1.5" fill="#7c1d2b" text-anchor="end">REHUMANIZED</text>
+          </svg>
+        </div>
       </div>
     </section>
 
@@ -284,7 +318,7 @@
     <div class="wrap footer-grid">
       <div>
         <p class="footer-sig mb-0">Reliance Enwerem</p>
-        <p class="muted" style="max-width:34ch">Assistant Professor of Technical &amp; Professional Communication. Teaching that treats data and students alike as people, not points.</p>
+        <p class="muted" style="max-width:34ch">Doctoral candidate &amp; Fellow (ABD), Texts &amp; Technology, UCF. Teaching that treats data and students alike as people, not points.</p>
       </div>
       <div>
         <h4>Pages</h4>

@@ -17,6 +17,7 @@
 
   <svg class="svg-defs" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><defs>
     <filter id="sketch" x="-6%" y="-6%" width="112%" height="112%"><feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/></filter>
+    <symbol id="person" viewBox="0 0 24 24"><circle cx="12" cy="6.6" r="4.4"/><path d="M2.8 22C2.8 15.6 6.9 12 12 12s9.2 3.6 9.2 10Z"/></symbol>
   </defs></svg>
 
   <header class="site-header">
@@ -37,16 +38,51 @@
 
   <main id="main">
     <section class="hero">
-      <div class="wrap">
-        <span class="eyebrow-hand">ENC 3027</span>
-        <h1>Topics in Tech Comm<br><span class="thesis">Rehumanizing Data</span></h1>
-        <p class="lead">A semester that teaches technical writers to communicate data about people without erasing them.</p>
-        <ul class="chips" style="margin-top:1.4rem">
-          <li class="chip">Advanced writing</li>
-          <li class="chip">Interdisciplinary</li>
-          <li class="chip">Mixed-mode</li>
-          <li class="chip">3 credit hours</li>
-        </ul>
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow-hand">ENC 3027</span>
+          <h1>Topics in Tech Comm<br><span class="thesis">Rehumanizing Data</span></h1>
+          <p class="lead">A semester that teaches technical writers to communicate data about people without erasing them.</p>
+          <ul class="chips" style="margin-top:1.4rem">
+            <li class="chip">Advanced writing</li>
+            <li class="chip">Interdisciplinary</li>
+            <li class="chip">Mixed-mode</li>
+            <li class="chip">3 credit hours</li>
+          </ul>
+        </div>
+        <div class="hero-media">
+          <svg class="hero-art" viewBox="0 0 520 360" role="img" aria-label="Illustration: a rising path of sixteen points across the semester, marked by five larger movement nodes.">
+            <rect width="520" height="360" fill="#fffdf8"/>
+            <line x1="40" y1="330" x2="492" y2="330" stroke="#17294c" stroke-opacity="0.12" stroke-width="1.5"/>
+            <line x1="40" y1="330" x2="40" y2="60" stroke="#17294c" stroke-opacity="0.12" stroke-width="1.5"/>
+            <!-- the arc -->
+            <polyline points="46,300 74,290 104,282 134,268 166,260 200,244 232,236 266,220 298,210 330,192 360,182 392,162 422,150 452,126 480,114 500,86" fill="none" stroke="#7c1d2b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
+            <!-- minor weekly points -->
+            <g fill="#17294c">
+              <circle cx="74" cy="290" r="3.4"/><circle cx="104" cy="282" r="3.4"/>
+              <circle cx="134" cy="268" r="3.4"/><circle cx="200" cy="244" r="3.4"/>
+              <circle cx="232" cy="236" r="3.4"/><circle cx="298" cy="210" r="3.4"/>
+              <circle cx="360" cy="182" r="3.4"/><circle cx="392" cy="162" r="3.4"/>
+              <circle cx="452" cy="126" r="3.4"/><circle cx="480" cy="114" r="3.4"/>
+            </g>
+            <!-- gold milestones (assignment due points) -->
+            <g fill="#b48a3f">
+              <rect x="162" y="256" width="9" height="9" transform="rotate(45 166.5 260.5)"/>
+              <rect x="326" y="188" width="9" height="9" transform="rotate(45 330.5 192.5)"/>
+              <rect x="418" y="146" width="9" height="9" transform="rotate(45 422.5 150.5)"/>
+            </g>
+            <!-- five movement nodes, shown as people progressing -->
+            <g>
+              <use href="#person" x="31" y="270" width="30" height="30" fill="#17294c"/>
+              <use href="#person" x="151" y="230" width="30" height="30" fill="#17294c"/>
+              <use href="#person" x="251" y="190" width="30" height="30" fill="#17294c"/>
+              <use href="#person" x="377" y="132" width="30" height="30" fill="#17294c"/>
+              <use href="#person" x="484" y="55" width="32" height="32" fill="#7c1d2b"/>
+            </g>
+            <text x="40" y="350" font-family="Georgia, serif" font-size="15" fill="#868c96">Wk 1</text>
+            <text x="492" y="350" font-family="Georgia, serif" font-size="15" fill="#868c96" text-anchor="end">Wk 16</text>
+          </svg>
+        </div>
       </div>
     </section>
 
@@ -203,7 +239,7 @@
     <div class="wrap footer-grid">
       <div>
         <p class="footer-sig mb-0">Reliance Enwerem</p>
-        <p class="muted" style="max-width:34ch">Assistant Professor of Technical &amp; Professional Communication. Teaching that treats data and students alike as people, not points.</p>
+        <p class="muted" style="max-width:34ch">Doctoral candidate &amp; Fellow (ABD), Texts &amp; Technology, UCF. Teaching that treats data and students alike as people, not points.</p>
       </div>
       <div>
         <h4>Pages</h4>

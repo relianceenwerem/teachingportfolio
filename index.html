@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script>document.documentElement.classList.add('js');</script>
   <title>Reliance Enwerem &middot; Rehumanizing Data &middot; Teaching Portfolio</title>
-  <meta name="description" content="The teaching portfolio of Reliance Enwerem, Assistant Professor of Technical &amp; Professional Communication. A pedagogy of rehumanizing data: care, embodiment, contextualization, small data, and subjectivity.">
+  <meta name="description" content="The teaching portfolio of Reliance Enwerem, teacher of technical and professional communication. A pedagogy of rehumanizing data: care, embodiment, contextualization, small data, and subjectivity.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -53,8 +53,47 @@
           <p class="lead">I teach technical &amp; professional communication as an act of care, helping students see the people inside the numbers.</p>
           <p style="margin-top:1.4rem"><a class="btn" href="philosophy.html">Read the philosophy <span aria-hidden="true">→</span></a> <a class="btn btn-ghost" href="assignment.html">See the signature assignment</a></p>
         </div>
-        <div>
-          <p class="aside-note tilt-r">Behind every dataset are real people. My classroom keeps them in view.</p>
+        <div class="hero-media">
+          <svg class="hero-art" viewBox="0 0 520 460" role="img" aria-label="Illustration: scattered data points resolving into the silhouette of a person.">
+            <defs>
+              <clipPath id="h-face">
+                <circle cx="300" cy="152" r="86"/>
+                <rect x="270" y="150" width="60" height="120"/>
+                <path d="M150 442 C150 322 215 260 300 260 C385 260 450 322 450 442 Z"/>
+              </clipPath>
+              <pattern id="h-dots" width="17" height="17" patternUnits="userSpaceOnUse">
+                <circle cx="4" cy="4" r="2.4" fill="#17294c"/>
+              </pattern>
+              <radialGradient id="h-glow" cx="50%" cy="45%" r="55%">
+                <stop offset="0%" stop-color="#b48a3f" stop-opacity="0.22"/>
+                <stop offset="100%" stop-color="#b48a3f" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <rect width="520" height="460" fill="#fffdf8"/>
+            <circle cx="300" cy="170" r="150" fill="url(#h-glow)"/>
+            <line x1="70" y1="442" x2="450" y2="442" stroke="#17294c" stroke-opacity="0.18" stroke-width="1.5"/>
+            <!-- silhouette built from data points -->
+            <rect x="120" y="50" width="360" height="392" fill="url(#h-dots)" clip-path="url(#h-face)"/>
+            <!-- warmth at the chest: a few crimson + gold points inside -->
+            <g clip-path="url(#h-face)">
+              <circle cx="294" cy="322" r="3.1" fill="#7c1d2b"/>
+              <circle cx="311" cy="339" r="3.1" fill="#7c1d2b"/>
+              <circle cx="277" cy="339" r="3.1" fill="#7c1d2b"/>
+              <circle cx="328" cy="322" r="3.1" fill="#b48a3f"/>
+              <circle cx="260" cy="322" r="3.1" fill="#b48a3f"/>
+              <circle cx="294" cy="356" r="3.1" fill="#7c1d2b"/>
+            </g>
+            <!-- scattered points drifting in from the left -->
+            <g fill="#17294c">
+              <circle cx="36" cy="150" r="3"/><circle cx="72" cy="196" r="2.4"/>
+              <circle cx="30" cy="250" r="2.6"/><circle cx="92" cy="132" r="2.2"/>
+              <circle cx="64" cy="300" r="3"/><circle cx="104" cy="356" r="2.4"/>
+              <circle cx="46" cy="352" r="2.2"/><circle cx="110" cy="244" r="2.6"/>
+            </g>
+            <circle cx="58" cy="210" r="5" fill="#7c1d2b"/>
+            <circle cx="96" cy="300" r="4" fill="#b48a3f"/>
+          </svg>
+          <p class="aside-note">Behind every dataset are real people. My classroom keeps them in view.</p>
         </div>
       </div>
     </section>
@@ -200,7 +239,7 @@
     <div class="wrap footer-grid">
       <div>
         <p class="footer-sig mb-0">Reliance Enwerem</p>
-        <p class="muted" style="max-width:34ch">Assistant Professor of Technical &amp; Professional Communication. Teaching that treats data and students alike as people, not points.</p>
+        <p class="muted" style="max-width:34ch">Doctoral candidate &amp; Fellow (ABD), Texts &amp; Technology, UCF. Teaching that treats data and students alike as people, not points.</p>
       </div>
       <div>
         <h4>Pages</h4>
